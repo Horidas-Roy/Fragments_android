@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".SecondFragment"
     android:orientation="vertical"
+    android:background="#DACA1381"
+    android:padding="20dp"
     >
 
-    <Button
-        android:id="@+id/fragment1"
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="First Fragment"/>
+        android:text="This is second Fragment"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        />
     <Button
-        android:id="@+id/fragment2"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Second Fragment"/>
-
-    <FrameLayout
-        android:id="@+id/host"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#34BAA7A7"/>
+        android:text=""/>
 
 </LinearLayout>
